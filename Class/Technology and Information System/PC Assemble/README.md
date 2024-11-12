@@ -1,4 +1,21 @@
 <html>
+  <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+
+        <!--Linked The Files CSS-->
+        <link rel="stylesheet" href="index.css">
+        <!--End of Linked-->
+
+        <!--Import Font From Google Font-->
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=Jersey+20&family=Jersey+20+Charted&display=swap');
+        </style>
+        <!--End of Import Fonts From Google Font-->
+
+    </head>
   <body>
     <!--Contents-->
                     <div class="middle-container">
