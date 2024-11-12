@@ -14,7 +14,6 @@
             @import url('https://fonts.googleapis.com/css2?family=Jersey+20&family=Jersey+20+Charted&display=swap');
         </style>
         <!--End of Import Fonts From Google Font-->
-
     </head>
   <body>
     <!--Contents-->
