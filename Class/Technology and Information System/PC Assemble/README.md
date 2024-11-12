@@ -4,7 +4,7 @@
                     <div class="middle-container">
                         <div id="content1" class="alice">
                             <h2 id="Title" style="color: black;">PC Assembel</h2><br>
-                            <img src="UTM/Class/Technology and Information System/PC Assembel/PC_Assemble.jpg" width="400px" alt="PC"> <br>
+                              <img src="PC_Assemble.JPG" width="400px" alt="PC"> <br>
                                 <p><u>06 November 2024</u><br>
                                     <div id="content2">
                                         <br><p>Today morning, I learn how to Assembel and reassemble a PC. This is a new experienced for me
