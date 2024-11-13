@@ -2,7 +2,7 @@
   <body>
     <!--Contents-->
                             <h2 id="Title">PC Assemble</h2><br>
-                              <img src="Pictures/PC_Assemble.JPG" width="400px" alt="PC"> <br>
+                              <img src="Other Pictures/PC_Assemble.JPG" width="400px" alt="PC"> <br>
                                 <p><u>06 November 2024</u><br>
                                     <div id="content2">
                                         <br><p>Today morning, I learn how to Assemble and reassemble a PC. This is a new experienced for me
