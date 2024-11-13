@@ -4,19 +4,19 @@
                             <h2 id="Title">PC Assemble</h2><br>
                               <img src="Other Pictures/PC_Assemble.JPG" width="400px" alt="PC"> <br>
                                 <p><u>06 November 2024</u><br>
-                                    <div id="content2">
-                                        <br><p>Today morning, I learn how to Assemble and reassemble a PC. This is a new experienced for me
-                                            eventho I'm really scared if the PC got damage but it is fun to play with it. Here are some step to assemble a PC:
-                                            <ul id="steps">
+                                    <div>
+                                        <br><p>Today morning, I learned how to assemble and reassemble a PC. This is a new experience for me
+                                            even though I'm really scared that the PC might get damaged. But it was fun to play with it. Here are some steps to assemble a PC:
+                                            <ul>
                                                 <br><li>Open the case</li>
-                                                <li>Take off all the connected wires.</li>
-                                                <li>Take off the power supply</li>
-                                                <li>Take off the RAM</li>
-                                                <li>Take off the Hard Disk</li>
-                                                <li>Take off the CPU fan</li>
+                                                <li>Disconnect all the connected wires.</li>
+                                                <li>Remove the power supply</li>
+                                                <li>Remove off the RAM</li>
+                                                <li>Remove the Hard Disk</li>
+                                                <li>Remove the CPU fan</li>
                                             </ul><br>
-                                            For reassemble, just reverse the steps. Hopefully it runs well.
-                                            After the Lab, we going to take a quiz about what we learnt before. It's easy if you remember the steps.
+                                            To reassemble, just reverse the steps. Hopefully, it runs well.
+                                            After the lab, we are going to take a quiz about what we learned before. It's easy if you remember the steps.
                                         </p>
                                 </p>
   </body>
