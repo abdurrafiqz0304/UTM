@@ -5,7 +5,7 @@
                               <img src="Other Pictures/PC_Assemble.JPG" width="400px" alt="PC"> <br>
                                 <p><u>06 November 2024</u><br>
                                     <div>
-                                        <br><p>Today morning, I learned how to assemble and reassemble a PC. This is a new experience for me
+                                        <br><p> &emsp; Today morning, I learned how to assemble and reassemble a PC. This is a new experience for me
                                             even though I'm really scared that the PC might get damaged. But it was fun to play with it. Here are some steps to assemble a PC:
                                             <ul>
                                                 <br><li>Open the case</li>
