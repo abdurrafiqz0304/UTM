@@ -2,7 +2,7 @@
   <body>
     <!--Contents-->
                             <h2 id="Title">Lab 1 | Logic Circuit</h2><br>
-                              <img src="Other Pictures/PC_Assemble.JPG" width="400px" alt="Lab DL"> <br>
+                              <img src="Class/Year 1/Semester 1/Digital Logic/dl7.jpg" width="400px" alt="Lab DL"> <br>
                                 <p><u>18 November 2024</u><br>
                                     <div>
                                         <br><p>Today, I'm working on a digital logic circuit to enhance my understanding through practical 
