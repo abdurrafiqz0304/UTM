@@ -1,3 +1,5 @@
+//This is a very basic calculator with limited input
+
 #include <iostream>
 using namespace std;
 
