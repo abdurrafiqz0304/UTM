@@ -1,3 +1,4 @@
+<html>
 <style>
 
     h3 {
@@ -6,6 +7,7 @@
 
 </style>
 
+<div style="text-align : center;">
 <img src="LAB_1/dl1.jpg"> 
 <h3>dl1.jpg</h3>
 <br>
@@ -33,3 +35,5 @@
 <img src="LAB_1/dl7.jpg"> 
 <h3>dl7.jpg</h3>
 <br>
+
+</html>
