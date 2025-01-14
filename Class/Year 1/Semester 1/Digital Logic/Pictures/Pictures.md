@@ -1,3 +1,11 @@
+<style>
+
+    h3 {
+        text-align : center;
+    }
+
+</style>
+
 <img src="LAB_1/dl1.jpg"> <br>
 <h3>dl1.jpg</h3>
 
