@@ -1,32 +1,27 @@
-<html>
-
-<div style="text-align : center;">
-<img src="LAB_1/dl1.jpg"> 
+<img src="dl1.jpg"> 
 <h3>dl1.jpg</h3>
 <br>
 
-<img src="LAB_1/dl2.jpg"> 
+<img src="dl2.jpg"> 
 <h3>dl2.jpg</h3>
 <br>
 
-<img src="LAB_1/dl3.jpg">
+<img src="dl3.jpg">
 <h3>dl3.jpg</h3>
 <br>
 
-<img src="LAB_1/dl4.jpg"> 
+<img src="dl4.jpg"> 
 <h3>dl4.jpg</h3>
 <br>
 
-<img src="LAB_1/dl5.jpg"> 
+<img src="dl5.jpg"> 
 <h3>dl5.jpg</h3>
 <br>
 
-<img src="LAB_1/dl6.jpg"> 
+<img src="dl6.jpg"> 
 <h3>dl6.jpg</h3>
 <br>
 
-<img src="LAB_1/dl7.jpg"> 
+<img src="dl7.jpg"> 
 <h3>dl7.jpg</h3>
 <br>
-
-</html>
