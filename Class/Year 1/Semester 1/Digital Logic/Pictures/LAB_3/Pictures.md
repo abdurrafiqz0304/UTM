@@ -5,4 +5,4 @@
 <h3>2. Our breadboard</h3> <br>
 
 <img src="3.jpg">
-<h3>3. His doing his stuff</h3> <br>
+<h3>3. He's doing his stuff</h3> <br>
