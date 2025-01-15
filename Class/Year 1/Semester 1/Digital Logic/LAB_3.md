@@ -2,7 +2,7 @@
   <body>
     <!--Contents-->
                             <h2 id="Title">Lab 3 | Synchronous Counter</h2><br>
-                              <img src="LAB_3/3.jpg" width="400px" alt="Lab DL"> <br>
+                              <img src="LAB_3/2.jpg" width="400px" alt="Lab DL"> <br>
                                 <p><u>30 December 2024</u><br>
                                     <div>
                                         <br><p> &emsp; Today, I'm working on a digital logic circuit to enhance my understanding through Deeds's software
