@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rectangle Area Calculator Explanation</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #1e1e1e;
+            color: #c9d1d9;
+            line-height: 1.6;
+            margin: 20px;
+        }
+        pre {
+            background-color: #2d2d2d;
+            color: #dcdcdc;
+            padding: 15px;
+            border-radius: 8px;
+            overflow-x: auto;
+            font-size: 0.9em;
+        }
+        h1, h2 {
+            color: #58a6ff;
+        }
+        ul {
+            list-style-type: square;
+        }
+        li {
+            margin-bottom: 10px;
+        }
+        a {
+            color: #58a6ff;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <h1>Rectangle Area Calculator Explanation</h1>
+
+    <h2>Program Overview</h2>
+    <p>The program is a simple console-based application that calculates the area and perimeter of a rectangle. It repeatedly prompts the user to enter the rectangle's dimensions and displays the results until the user decides to stop.</p>
+
+    <h2>Key Components</h2>
+    <ul>
+        <li><strong><code>getPositiveInput</code> Function:</strong>
+            <ul>
+                <li>This function prompts the user for input and ensures that the input is a positive number.</li>
+                <li>It takes a <code>std::string</code> as a parameter, which is used to display the prompt message.</li>
+                <li>The function uses a <code>do-while</code> loop to repeatedly ask for input until a valid positive number is entered.</li>
+            </ul>
+        </li>
+        <li><strong><code>displayResults</code> Function:</strong>
+            <ul>
+                <li>This function calculates the area and perimeter of the rectangle using the provided length and width.</li>
+                <li>It then displays the length, width, area, and perimeter in a formatted manner.</li>
+                <li>This function encapsulates the logic for displaying results, making the <code>main</code> function cleaner and more focused.</li>
+            </ul>
+        </li>
+        <li><strong><code>main</code> Function:</strong>
+            <ul>
+                <li>The <code>main</code> function serves as the entry point of the program.</li>
+                <li>It displays a welcome message and enters a loop where it repeatedly asks the user for the rectangle's dimensions.</li>
+                <li>It calls <code>getPositiveInput</code> twice to get valid length and width values.</li>
+                <li>It then calls <code>displayResults</code> to show the calculated area and perimeter.</li>
+                <li>The loop continues based on the user's choice, which is checked using a <code>do-while</code> loop. The loop exits if the user enters 'n' or 'N'.</li>
+            </ul>
+        </li>
+    </ul>
+
+    <h2>Modern C++ Practices</h2>
+    <ul>
+        <li><strong>Use of <code>std::string</code>:</strong> The program uses <code>std::string</code> for handling prompt messages, which is a modern C++ practice for handling strings.</li>
+        <li><strong>Encapsulation:</strong> The program encapsulates input validation and result display in separate functions, improving code readability and maintainability.</li>
+        <li><strong>Consistent Formatting:</strong> The code is formatted consistently, with clear separation of logic and comments explaining each part.</li>
+    </ul>
+
+    <h2>Line-by-Line Explanation</h2>
+    <pre>
+#include &lt;iostream&gt;
+
+double getPositiveInput(const std::string&amp; prompt) {
+    double value;
+    do {
+        std::cout &lt;&lt; prompt;
+        std::cin &gt;&gt; value;
+        if (value &lt;= 0.0) {
+            std::cout &lt;&lt; "Please enter a positive number.\n";
+        }
+    } while (value &lt;= 0.0);
+    return value;
+}
+
+void displayResults(double length, double width) {
+    double area = length * width;
+    double perimeter = 2 * (length + width);
+    std::cout &lt;&lt; "\nRectangle's Length: " &lt;&lt; length &lt;&lt; "m"
+              &lt;&lt; "\nRectangle's Width : " &lt;&lt; width &lt;&lt; "m"
+              &lt;&lt; "\nRectangle's Area  : " &lt;&lt; area &lt;&lt; " sq.m"
+              &lt;&lt; "\nRectangle's Perimeter: " &lt;&lt; perimeter &lt;&lt; "m\n";
+}
+
+int main() {
+    std::cout &lt;&lt; "This Is Rectangle Area Calculator\n";
+    char choice;
+    do {
+        double length = getPositiveInput("\nEnter Rectangle's Length (positive number): ");
+        double width = getPositiveInput("Enter Rectangle's Width (positive number): ");
+        
+        displayResults(length, width);
+
+        std::cout &lt;&lt; "\nDo you want to continue? [y/n] ";
+        std::cin &gt;&gt; choice;
+    } while (choice == 'y' || choice == 'Y');
+
+    return 0;
+}
+    </pre>
+
+    <p>This program is structured to ensure input validation, clear output, and user interaction in a loop, allowing repeated calculations until the user decides to stop.</p>
+</body>
+</html>
