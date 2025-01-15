@@ -1,4 +1,4 @@
-<img src="Open.png">
+<img src="OPEN.png">
 <h3>Open</h3> <br>
 
 <img src="ALARM.png">
