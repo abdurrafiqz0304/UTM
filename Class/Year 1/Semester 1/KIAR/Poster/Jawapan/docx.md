@@ -1,1 +1,1 @@
-<a href="https://docs.google.com/document/d/1strtHBJnfQYcWVR2qwgwuWgaBTYvphoZ1Tgb3fyqzXE/edit?usp=sharing" target="_blank">
+< href="https://docs.google.com/document/d/1strtHBJnfQYcWVR2qwgwuWgaBTYvphoZ1Tgb3fyqzXE/edit?usp=sharing" target="_blank">Google Docs</a>
