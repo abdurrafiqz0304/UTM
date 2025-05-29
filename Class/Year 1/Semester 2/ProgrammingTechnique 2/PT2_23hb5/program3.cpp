@@ -16,8 +16,8 @@ class Student
 	string matric;
 
   public:
-	Student(string _name = "", string _matric = "") : name(_name), matric(_matric)
-	{}
+	Student(string _name = "", string _matric = "") : name(_name), matric(_matric) {} // Task 2: Initialize the member variables using an initializer list
+	// Task 1: Declare the member variables name and matric here
 
 	string getName() const { return name; }
 	string getMatric() const { return matric; }
@@ -137,8 +137,8 @@ class Postgraduate : public Student // Task 2: Derive this class from Student
 	{
 			// Task 7: Call the method print() in the base class and display the values of project title and area
 		Student::print();
-        cout << "Project Title: " << project.getProjectTitle() << endl;
-		cout << "Project Area : " << project.getProjectArea() << endl;
+        cout << "Project Title: " << project.getTitle() << endl;
+		cout << "Project Area : " << project.getArea() << endl;
 	}
 
 };
@@ -184,12 +184,17 @@ int main()
 		case 1:
 		    // Task 6: Read data for an undergraduate student and add it to the relevant array.
 			cout << endl << "Adding a postgraduate student: " << endl << endl;
+			ugList[numUG].input(); // read data for an undergraduate student
+			++numUG; // increment the number of undergraduate students
 			
 			break;
 
 		case 2:
 			// Task 7: Read data for a postgraduate student and add it to the relevant array.
 			cout << "The list of undergraduate students:" << endl << endl;
+			cout << endl << "Adding a postgraduate student: " << endl << endl;
+			pgList[numPG++].input(); // read data for a postgraduate student
+			// increment the number of postgraduate students			
 
 			break;
 
@@ -197,10 +202,18 @@ int main()
 			// Task 8: Diplay the list of undergraduate and postgraduate students.
 
 			cout << endl << "The list of undergraduate students:" << endl << endl;
-
-
+			for (int i = 0; i < numUG; i++)
+			{
+				ugList[i].print(); // print the details of each undergraduate student
+				//cout << endl;
+			}
+			
 			cout << endl << "The list of postgraduate students:" << endl << endl;
-
+			for (int i = 0; i < numPG; i++)
+			{
+				pgList[i].print(); // print the details of each postgraduate student
+				//cout << endl;
+			}
 
 			break;
 		}
