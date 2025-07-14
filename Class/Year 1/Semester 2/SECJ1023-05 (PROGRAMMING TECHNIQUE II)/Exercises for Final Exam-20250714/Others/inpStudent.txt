@@ -1,0 +1,4 @@
+Lim Sew Ying,010897634045,lsying12@live.utm.my,Electrical Engineering,Smart Dustbin
+Abu Bakar Razali,0111210000,abraz78@live.utm.my,Computer Science,Money Recognition for Blind People
+Nur Amalina Muhammad,0129000123,nam978@live.utm.my,Biomedical Engineering,Dengue Testing Kit
+Abas Amirullah,0121236782,abasa12@live.utm.my,Science,Sports in Education
