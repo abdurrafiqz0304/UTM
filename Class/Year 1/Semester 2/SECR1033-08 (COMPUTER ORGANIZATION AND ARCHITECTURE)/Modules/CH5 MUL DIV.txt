@@ -1,0 +1,45 @@
+TITLE lab_template
+
+; Author: Dr Foad
+; Date: 13 May 2025
+
+
+include Irvine32.inc
+
+.data
+
+.code
+
+main proc
+
+	; 8 bit X 8bit = 16 bit, Ans AX=0004h, DX=0
+	mov EAX, 0
+	mov AL, 2h
+	mov BL, 2h
+	mul BL
+
+	; 16 bit X 16 bit = 32 bit, Ans 100000 (AX=0000, DX = 0010)
+	mov EAX, 0
+	mov AX, 0400h; 
+	mov BX, 0400h
+	mul BX
+
+	; 16 bit / 8 bit, Answer Q(AL=05h), R(AH=01h)
+	mov EAX, 0
+	mov AX, 0Bh
+	mov BL, 2h
+	div BL
+
+	; 32 bit / 16 bit, Answer Q(AX=8000h =32768), R(DX=0)
+	mov EAX, 0
+	mov EAX, 00100000h  ; 1048576
+	mov BX, 0020h   ; 32
+	div BX
+
+	call dumpregs
+
+	exit
+
+	main ENDP
+
+	END main
