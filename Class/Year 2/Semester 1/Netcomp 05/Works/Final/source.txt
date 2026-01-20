@@ -1,0 +1,30 @@
+Netcom tips
+
+Objective 30 questions (try to score)
+IPV6 ke IPV4 and to IPV6 back (ada tunnel)
+Calculation for subnetting 
+HOL locking?
+Address which IP within the range or x 
+NAT 
+Pcp router
+Time exceeded ICP messages
+WiFi frame and ethernet frame 
+ERP
+Camcd 
+
+Part B (70%)
+forwarding related to IP datagram, how many type, rubber bytes, Mt bape bytes, tukar clip bape fragments (in calculation)
+ Comparison strength and limitation for cbr 
+One situation, think and analyze connection machine x leh connect 
+Dijkstra (calculation based on dijkstra)
+Tengok forwarding table (how to produce)
+Study role of icmp ipv4
+ SEM match connection pipeline (advantages, blh jadi optimum choice or x)
+Calculation about errors parity bit 
+Crc algorithm 
+Purpose of ethernet (frame, transmission, etc)
+Dlm switch ada mac addresses in forwarding table ( baca related to performance issue) but baca whole
+Check datagram travel dari A ke host B for example (related juga ke mac address)
+Vlan
+CdMA (calculation focus more)
+Mobility Indirect routing
