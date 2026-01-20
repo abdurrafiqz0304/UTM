@@ -1,0 +1,35 @@
+Final Exam Tips.
+
+Chapter 4
+-Data plane vs Control Plane
+-IP Address (subnetting)
+-Router architecture 
+-IP service model
+-Fragmentation
+-Tunnelling
+-NAT
+
+Chapter 5
+-Dijisktra (important)
+-InterIntra Domain Roiuting
+-DHCP
+-Network monitoring
+-SDN & Generalised forwarding
+
+Chapter 6
+-Role of link layer
+-Error detection and correction
+-CRC
+-MAC address
+-Random Access Protocol
+-Taking turns protocol
+-Ethernet frame structure
+-ARP & ARP table
+-VLAN
+
+Chapter 7
+-Characteristics of wireless 
+-WiFI
+-CDMA
+-CSMACA & RTS
+-Indirect Routing
